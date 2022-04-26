@@ -1,5 +1,6 @@
 form{
-  margin-top: 30px;
+  margin: 30px;
+  margin-left: 0;
 }
 .deletebtn{
   width: 23px;
@@ -7,4 +8,8 @@ form{
 }
 li{
   line-height: 30px;
+}
+span{
+  font-weight: normal;
+  font-size: 18px;
 }
