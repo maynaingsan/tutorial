@@ -6,12 +6,12 @@ var app = new Vue({
     todos: ['get up', 'wash'],
     isHidden: false
   },
-  methods:{
-    addItem(){
-      this.todos=[...this.todos,this.newItem];
-      this.newItem='';
+  methods: {
+    addItem() {
+      this.todos = [...this.todos, this.newItem];
+      this.newItem = '';
     },
-    deleteItem(index){
+    deleteItem(index) {
       this.todos.splice(index, 1);
     }
   }
