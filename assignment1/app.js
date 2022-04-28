@@ -1,4 +1,17 @@
-var app = new Vue({
+Vue.component('todos', {
+  template: `
+    <form @submit.prevent="addItem" v-if="!isHidden" class="submitForm">
+      <input type="text" v-model="newItem">
+      <button type="submit">Submit</button>
+    </form>
+  `,
+  data() {
+    return {
+      newItem: ''
+    }
+  }
+})
+new Vue({
   el: '#app',
   data: {
     newItem: '',
