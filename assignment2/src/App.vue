@@ -47,3 +47,4 @@ export default {
   margin-left: 40%;
 }
 </style>
+

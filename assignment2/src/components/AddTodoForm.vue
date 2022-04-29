@@ -18,8 +18,12 @@ export default {
   },
   methods: {
     addItem() {
-      this.$emit( 'create-item' , this.newItem );
-      this.newItem = '';
+      if (this.newItem) {
+        this.$emit( 'create-item' , this.newItem );
+        this.newItem = '';
+      }
+        
+      else alert('U have to enter task')
     }
   }
 }
