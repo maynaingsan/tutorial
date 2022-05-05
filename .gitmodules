@@ -1,3 +1,6 @@
 [submodule "tutorial"]
 	path = tutorial
 	url = https://github.com/maynaingsan/tutorial.git
+[submodule "assign3/tutorial"]
+	path = assign3/tutorial
+	url = https://github.com/maynaingsan/tutorial.git
