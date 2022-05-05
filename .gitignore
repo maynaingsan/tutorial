@@ -21,3 +21,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+[submodule "zen-coding-gedit3"]
+    path = zen-coding-gedit3
+    url = git://github.com/leafac/zen-coding-gedit3.git
+    ignore = dirty
